@@ -45,8 +45,7 @@ bool fuzzTest(int n, int len_max, int len_min) {
   return true;
 }
 
-int main()
-{
+int main() {
   fuzzTest(100, 20, 30);
   return 0;
 }
